@@ -1,275 +1,591 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Atia Abouel-Eneen — Full-Stack .NET Developer</title>
-
-  <!-- Fonts -->
-  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@600;700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
-
-  <!-- Bootstrap 5 (optional) -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-
-  <!-- Main styles -->
-  <link rel="stylesheet" href="styles.css" />
-  <meta name="description" content="Atia Abouel-Eneen — Full-Stack .NET Developer. CRM, ERP, Digital Transformation for Insurance & Financial Services." />
-  <meta property="og:title" content="Atia Abouel-Eneen — Full-Stack .NET Developer" />
-  <meta property="og:description" content="CRM, ERP, FRA integration, digital transformation, ASP.NET Core, Blazor, EF Core, SQL Server." />
-  <meta property="og:image" content="assets/profile.jpg" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atia Aboueleneen | Full-Stack .NET Developer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+   
 </head>
-<body class="dark">
+<body>
+    <!-- Header -->
+    <header id="header">
+        <div class="container header-container">
+            <a href="#home" class="logo">Atia<span>Aboueleneen</span><div class="logo-dot"></div></a>
 
-  <!-- NAV -->
-  <nav class="nav-bar fixed-top">
-    <div class="container d-flex justify-content-between align-items-center">
-      <div class="brand d-flex align-items-center">
-        <img src="assets/logo.svg" alt="Atia logo" class="logo me-2" />
-        <span class="brand-name">Atia Abouel-Eneen</span>
-      </div>
-      <div class="nav-links d-none d-md-flex">
-        <a href="#about">About</a>
-        <a href="#skills">Skills</a>
-        <a href="#projects">Projects</a>
-        <a href="#experience">Experience</a>
-        <a href="#contact">Contact</a>
-      </div>
-    </div>
-  </nav>
-
-  <!-- HERO -->
-  <header id="home" class="hero">
-    <div class="container hero-inner">
-      <div class="hero-left">
-        <h1 class="serif">Atia Abouel-Eneen</h1>
-        <p class="title">Full-Stack .NET Developer &nbsp;|&nbsp; CRM & Insurance Systems Specialist</p>
-        <p class="lead">
-          Designing and delivering enterprise web systems for insurance and financial services — CRM, ERP, API integrations, and digital transformation.
-        </p>
-        <div class="hero-cta">
-          <a class="btn btn-primary" href="#projects">View Projects</a>
-          <a class="btn btn-outline" href="mailto:atia.aboueleneen@gmail.com">Contact</a>
-        </div>
-        <ul class="contact-quick">
-          <li><strong>Email:</strong> atia.aboueleneen@gmail.com</li>
-          <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/atia-abouel-eneen-8a2aa183/" target="_blank">Atia Abouel-Eneen</a></li>
-        </ul>
-      </div>
-
-      <div class="hero-right">
-        <div class="photo-frame">
-          <img src="assets/profile.jpg" alt="Atia Abouel-Eneen" id="profile-photo" />
-        </div>
-        <div class="hero-badge">
-          <span>10+ years</span>
-          <small>Full-stack development</small>
-        </div>
-      </div>
-    </div>
-  </header>
-
-  <main>
-
-    <!-- ABOUT -->
-    <section id="about" class="section">
-      <div class="container">
-        <div class="section-header">
-          <h2>About</h2>
-          <p class="section-sub">Senior Full-Stack Developer with extensive experience in insurance, CRM and ERP systems, database design, and digital transformation.</p>
-        </div>
-
-        <div class="row">
-          <div class="col-md-7">
-            <p>
-              I design and implement robust enterprise systems using ASP.NET Core, Blazor, EF Core and SQL Server. I combine practical architecture with applied business understanding from multiple digital transformation projects in insurance and public sector.
-            </p>
-            <ul class="highlights">
-              <li>Lead & sole developer roles on CRM and integration projects.</li>
-              <li>Delivered phase-one digital transformation for legacy systems.</li>
-              <li>Designed robust permission systems and file management modules.</li>
-            </ul>
-          </div>
-
-          <div class="col-md-5">
-            <div class="card summary-card">
-              <div><strong>Location:</strong> Egypt</div>
-              <div><strong>Education:</strong> Postgraduate — Computer Science</div>
-              <div><strong>Certificates:</strong> PMO-CP (Arabic), FSI Digital Marketing for Financial Services</div>
+            <div class="mobile-toggle">
+                <i class="fas fa-bars"></i>
             </div>
-          </div>
+
+            <nav>
+                <ul>
+                    <li><a href="#home" class="active">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
         </div>
-      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-bg"></div>
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1>Atia Aboueleneen</h1>
+                    <div class="hero-subtitle">Full-Stack .NET Developer</div>
+                    <p class="hero-description">Experienced .NET developer with 8+ years building enterprise applications for HR, CRM, ERP, and government systems. Specialized in ASP.NET, C#, SQL Server, and full-stack development with a focus on scalable, secure solutions.</p>
+                    <div class="hero-actions">
+                        <a href="#projects" class="btn">
+                            <i class="fas fa-code"></i> View My Projects
+                        </a>
+                        <a href="#contact" class="btn btn-outline">
+                            <i class="fas fa-envelope"></i> Contact Me
+                        </a>
+                    </div>
+                </div>
+
+                <div class="profile-container">
+                    <div class="profile-glow"></div>
+                    <div class="profile-frame">
+                        <!-- Replace with your actual photo URL -->
+                        <img src="assets/images/profile.jpg" alt="Atia Aboueleneen" class="profile-photo">
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
 
-    <!-- SKILLS -->
-    <section id="skills" class="section">
-      <div class="container">
-        <h2>Skills</h2>
-        <div class="skills-grid">
-          <div class="skill">
-            <h5>Backend</h5>
-            <p>ASP.NET Core, Web API, EF Core, C#, Dapper, REST</p>
-          </div>
-          <div class="skill">
-            <h5>Frontend</h5>
-            <p>Blazor, Razor Pages, Bootstrap, JavaScript, Select2</p>
-          </div>
-          <div class="skill">
-            <h5>Database</h5>
-            <p>SQL Server, T-SQL, Performance & Indexing</p>
-          </div>
-          <div class="skill">
-            <h5>Other</h5>
-            <p>ML.NET (basic), Git, Visual Studio, SSMS</p>
-          </div>
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <div class="section-title">
+                <h2>About Me</h2>
+            </div>
+
+            <div class="about-content">
+                <div class="about-text">
+                    <p>I'm a Full-Stack .NET Developer with extensive experience in building enterprise-level applications for diverse industries including government, healthcare, insurance, and real estate. My expertise spans the entire development lifecycle from concept to deployment.</p>
+
+                    <p>I specialize in creating robust, scalable solutions using ASP.NET Core, C#, SQL Server, and modern web technologies. My work focuses on delivering systems that improve operational efficiency and provide tangible business value.</p>
+
+                    <div class="about-highlights">
+                        <div class="highlight-item">
+                            <div class="highlight-icon">
+                                <i class="fas fa-server"></i>
+                            </div>
+                            <div>
+                                <h4>Full-Stack Development</h4>
+                                <p>End-to-end application development with ASP.NET, C#, and SQL Server</p>
+                            </div>
+                        </div>
+                        <div class="highlight-item">
+                            <div class="highlight-icon">
+                                <i class="fas fa-database"></i>
+                            </div>
+                            <div>
+                                <h4>Database Design</h4>
+                                <p>Expert in SQL Server, EF Core, and optimized database architecture</p>
+                            </div>
+                        </div>
+                        <div class="highlight-item">
+                            <div class="highlight-icon">
+                                <i class="fas fa-cogs"></i>
+                            </div>
+                            <div>
+                                <h4>Enterprise Solutions</h4>
+                                <p>Building scalable systems for HR, CRM, ERP, and government applications</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="about-image">
+                    <div class="about-image-content">
+                        <i class="fas fa-laptop-code" style="font-size: 3rem; color: var(--accent); margin-bottom: var(--spacing-md);"></i>
+                        <h3 style="color: var(--text-primary); margin-bottom: var(--spacing-sm);">.NET Specialist</h3>
+                        <p style="color: var(--text-secondary); margin-bottom: 0.5rem;">8+ Years Experience</p>
+                        <p style="color: var(--text-secondary); margin-bottom: 0.5rem;">Full-Stack Development</p>
+                        <p style="color: var(--text-secondary);">Enterprise Applications</p>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
     </section>
 
-    <!-- PROJECTS -->
-    <section id="projects" class="section">
-      <div class="container">
-        <h2>Projects</h2>
-        <p class="section-sub">Selected work — descriptions, responsibilities, and architecture notes. Visuals are recreated mockups and diagrams (no client data).</p>
+    <!-- Skills Section -->
+    <section id="skills">
+        <div class="container">
+            <div class="section-title">
+                <h2>Technical Skills</h2>
+            </div>
 
-        <div class="project-list">
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3><i class="fas fa-code"></i> Backend Development</h3>
+                    <ul class="skill-list">
+                        <li>
+                            <span class="skill-name">ASP.NET Core / Framework</span>
+                            <span class="skill-level">Expert</span>
+                        </li>
+                        <li>
+                            <span class="skill-name">C#</span>
+                            <span class="skill-level">Expert</span>
+                        </li>
+                        <li>
+                            <span class="skill-name">REST APIs</span>
+                            <span class="skill-level">Advanced</span>
+                        </li>
+                        <li>
+                            <span class="skill-name">ADO.NET</span>
+                            <span class="skill-level">Advanced</span>
+                        </li>
+                    </ul>
+                </div>
 
-          <!-- CRM -->
-          <article class="project-card">
-            <div class="project-meta">
-              <h3>CRM System — Insurance Company</h3>
-              <span class="year">2024 – 2025</span>
-              <span class="role">Sole full-stack developer & system designer</span>
-            </div>
-            <div class="project-body">
-              <p>A full Customer Relationship Management system centralizing customers, contacts, activities and document management for the sales team.</p>
-              <ul>
-                <li>Stack: ASP.NET Core (Razor Pages), EF Core, SQL Server, Bootstrap</li>
-                <li>Highlights: Multi-file upload management, role-based permission system, sales dashboard (numbers-only), ML.NET integration point</li>
-                <li>Impact: Streamlined activity tracking and document management across departments.</li>
-              </ul>
-              <div class="diagram">[Architecture diagram placeholder — provide on request]</div>
-            </div>
-          </article>
+                <div class="skill-category">
+                    <h3><i class="fas fa-database"></i> Database & ORM</h3>
+                    <ul class="skill-list">
+                        <li>
+                            <span class="skill-name">SQL Server</span>
+                            <span class="skill-level">Expert</span>
+                        </li>
+                        <li>
+                            <span class="skill-name">Entity Framework Core</span>
+                            <span class="skill-level">Advanced</span>
+                        </li>
+                        <li>
+                            <span class="skill-name">Database Design</span>
+                            <span class="skill-level">Expert</span>
+                        </li>
+                        <li>
+                            <span class="skill-name">Stored Procedures</span>
+                            <span class="skill-level">Advanced</span>
+                        </li>
+                    </ul>
+                </div>
 
-          <!-- ERP -->
-          <article class="project-card">
-            <div class="project-meta">
-              <h3>ERP — HR, Accounting & Real Estate</h3>
-              <span class="year">2024 – 2025</span>
-              <span class="role">Full-stack developer (team of 3)</span>
+                <div class="skill-category">
+                    <h3><i class="fas fa-desktop"></i> Frontend & Tools</h3>
+                    <ul class="skill-list">
+                        <li>
+                            <span class="skill-name">Blazor / Razor Pages</span>
+                            <span class="skill-level">Advanced</span>
+                        </li>
+                        <li>
+                            <span class="skill-name">HTML/CSS/JavaScript</span>
+                            <span class="skill-level">Advanced</span>
+                        </li>
+                        <li>
+                            <span class="skill-name">Bootstrap</span>
+                            <span class="skill-level">Advanced</span>
+                        </li>
+                        <li>
+                            <span class="skill-name">DevExpress</span>
+                            <span class="skill-level">Intermediate</span>
+                        </li>
+                    </ul>
+                </div>
             </div>
-            <div class="project-body">
-              <p>Unified ERP platform for HR, finance and property operations with role-based access and audit trails.</p>
-              <ul>
-                <li>Stack: ASP.NET Core, Blazor, SQL Server</li>
-                <li>Highlights: Payroll, invoices, unit & contract management, rent tracking</li>
-                <li>Role: Backend APIs, Blazor UI modules, feature delivery within sprint cycles</li>
-              </ul>
-              <div class="diagram">[Module & workflow diagram placeholder]</div>
-            </div>
-          </article>
-
-          <!-- FRA System -->
-          <article class="project-card">
-            <div class="project-meta">
-              <h3>FRA Integration System</h3>
-              <span class="year">2023 – 2025</span>
-              <span class="role">Full-stack developer</span>
-            </div>
-            <div class="project-body">
-              <p>API-based integration to submit insurance policy data to the Financial Regulatory Authority. Ensured data structure and secure transfer.</p>
-              <ul>
-                <li>Stack: ASP.NET Core, SQL Server</li>
-                <li>Highlights: API design, code-first EF Core DB, compliance to FRA specs</li>
-              </ul>
-            </div>
-          </article>
-
-          <!-- Baladia -->
-          <article class="project-card">
-            <div class="project-meta">
-              <h3>Baladia System — Citizen License Management</h3>
-              <span class="year">2023 – 2024</span>
-              <span class="role">Full-stack developer</span>
-            </div>
-            <div class="project-body">
-              <p>Governance system for storing and validating citizen real estate licenses as part of a city digital transformation.</p>
-              <ul>
-                <li>Stack: ASP.NET Web Forms, ADO.NET, SQL Server</li>
-                <li>Highlights: License lifecycle, archive, expiration rules enforcement</li>
-              </ul>
-            </div>
-          </article>
-
         </div>
-      </div>
     </section>
 
-    <!-- EXPERIENCE -->
-    <section id="experience" class="section">
-      <div class="container">
-        <h2>Experience Timeline</h2>
-        <ol class="timeline">
-          <li><strong>2024–2025</strong> — CRM System, ERP (Full-stack)</li>
-          <li><strong>2023–2025</strong> — FRA integration, Baladia (Full-stack)</li>
-          <li><strong>2015–2016</strong> — HRMS, E-Care, Arc-Dox (Full-stack / Desktop & Web)</li>
-        </ol>
-      </div>
-    </section>
+    <!-- Projects Section -->
+    <section id="projects">
+        <div class="container">
+            <div class="section-title">
+                <h2>Selected Projects</h2>
+            </div>
 
-    <!-- CERTS & EDUCATION -->
-    <section id="certs" class="section">
-      <div class="container">
-        <h2>Education & Certifications</h2>
-        <div class="row">
-          <div class="col-md-6">
-            <p><strong>Postgraduate — Computer Science</strong></p>
-            <p><strong>Faculty of Commerce — Accounting</strong> (background)</p>
-          </div>
-          <div class="col-md-6">
-            <p><strong>Certificates</strong></p>
-            <ul>
-              <li>PMO-CP (Arabic)</li>
-              <li>Digital Marketing — FSI, Financial Services Institute</li>
-            </ul>
-          </div>
+            <div class="projects-grid">
+                <!-- Project 1: ERP System -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="project-icon">
+                            <i class="fas fa-building"></i>
+                        </div>
+                        <div class="project-title-container">
+                            <div class="project-year">2024 – 2025</div>
+                            <h3>ERP System for HR, Accounting, and Real Estate</h3>
+                        </div>
+                    </div>
+
+                    <div class="project-role">Full-stack Developer (3-member team)</div>
+
+                    <div class="project-content">
+                        <p>A unified ERP platform that centralizes HR, Accounting, and Real Estate functions into one integrated system. Streamlines employee management, financial workflows, and property operations.</p>
+
+                        <div class="project-features">
+                            <ul>
+                                <li>Centralized HR, Accounting, and Real Estate modules</li>
+                                <li>Employee management, attendance, payroll, and HR records</li>
+                                <li>Full financial cycle: invoices, receipts, general ledger, reporting</li>
+                                <li>Real estate unit management, contracts, rent tracking</li>
+                                <li>Role-based access control and secure audit trails</li>
+                                <li>Responsive UI built with Blazor and Bootstrap</li>
+                            </ul>
+                        </div>
+
+                        <div class="project-tech">
+                            <span class="tech-tag">ASP.NET Core</span>
+                            <span class="tech-tag">C#</span>
+                            <span class="tech-tag">REST APIs</span>
+                            <span class="tech-tag">Blazor</span>
+                            <span class="tech-tag">Bootstrap</span>
+                            <span class="tech-tag">SQL Server</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2: CRM System -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="project-icon">
+                            <i class="fas fa-users"></i>
+                        </div>
+                        <div class="project-title-container">
+                            <div class="project-year">2024 – 2025</div>
+                            <h3>CRM System for Insurance Company</h3>
+                        </div>
+                    </div>
+
+                    <div class="project-role">Sole Full-stack Developer & System Designer</div>
+
+                    <div class="project-content">
+                        <p>A full Customer Relationship Management system designed specifically for an insurance company. Centralizes customers, contacts, activities, and documents into one platform.</p>
+
+                        <div class="project-features">
+                            <ul>
+                                <li>Complete customer and contact management with detailed profiles</li>
+                                <li>Activity tracking linked to customers and contacts</li>
+                                <li>Multi-file upload system with edit/delete functionality</li>
+                                <li>Role-based permission system using Contact table</li>
+                                <li>Sales dashboard showing counts (leads, activities, policies)</li>
+                                <li>Structured Razor Pages architecture with EF Core Code-First</li>
+                                <li>Prepared integration point for ML.NET predictive models</li>
+                            </ul>
+                        </div>
+
+                        <div class="project-tech">
+                            <span class="tech-tag">ASP.NET Core</span>
+                            <span class="tech-tag">Razor Pages</span>
+                            <span class="tech-tag">EF Core</span>
+                            <span class="tech-tag">Bootstrap</span>
+                            <span class="tech-tag">JavaScript/jQuery</span>
+                            <span class="tech-tag">SQL Server</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3: Baladia System -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="project-icon">
+                            <i class="fas fa-city"></i>
+                        </div>
+                        <div class="project-title-container">
+                            <div class="project-year">2023 – 2024</div>
+                            <h3>Baladia System (Kuwait City)</h3>
+                        </div>
+                    </div>
+
+                    <div class="project-role">Full-stack Developer</div>
+
+                    <div class="project-content">
+                        <p>A governance system that handles all citizen licenses and demands as part of a digital transformation project for Kuwait City.</p>
+
+                        <div class="project-features">
+                            <ul>
+                                <li>Store and archive citizen real estate licenses</li>
+                                <li>Track expired licenses for building new constructions</li>
+                                <li>Manage license ecosystem across the entire city</li>
+                                <li>Enable building permits and activity approvals</li>
+                            </ul>
+                        </div>
+
+                        <div class="project-tech">
+                            <span class="tech-tag">ASP.NET Web Forms</span>
+                            <span class="tech-tag">C#</span>
+                            <span class="tech-tag">ADO.NET</span>
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">SQL Server</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Second Row of Projects -->
+            <div class="projects-grid" style="margin-top: var(--spacing-md);">
+                <!-- Project 4: FRA System -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="project-icon">
+                            <i class="fas fa-file-contract"></i>
+                        </div>
+                        <div class="project-title-container">
+                            <div class="project-year">2023 – 2025</div>
+                            <h3>FRA System (Financial Regulatory Authority)</h3>
+                        </div>
+                    </div>
+
+                    <div class="project-role">Full-stack Developer</div>
+
+                    <div class="project-content">
+                        <p>A national integration project that enforces insurance companies to send policy data to the Egyptian Financial Regulatory Authority via structured APIs.</p>
+
+                        <div class="project-features">
+                            <ul>
+                                <li>Designed database architecture using SQL Server & EF Core</li>
+                                <li>Implemented API endpoints for data exchange with FRA</li>
+                                <li>Ensured compliance with FRA requirements</li>
+                                <li>Managed insurance policy document submission</li>
+                                <li>Collaborated with team to complete national project</li>
+                            </ul>
+                        </div>
+
+                        <div class="project-tech">
+                            <span class="tech-tag">ASP.NET Core</span>
+                            <span class="tech-tag">C#</span>
+                            <span class="tech-tag">EF Core</span>
+                            <span class="tech-tag">Razor Pages</span>
+                            <span class="tech-tag">Bootstrap</span>
+                            <span class="tech-tag">SQL Server</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 5: HRMS -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="project-icon">
+                            <i class="fas fa-user-tie"></i>
+                        </div>
+                        <div class="project-title-container">
+                            <div class="project-year">2015 – 2016</div>
+                            <h3>HRMS (Human Resource Management System)</h3>
+                        </div>
+                    </div>
+
+                    <div class="project-role">Full-stack Developer</div>
+
+                    <div class="project-content">
+                        <p>Human Resource Management system for a charity organization in Saudi Arabia, managing all employee operations.</p>
+
+                        <div class="project-features">
+                            <ul>
+                                <li>Handle all employee needs in the organization</li>
+                                <li>Manage salaries and vacation tracking</li>
+                                <li>Print documents using Microsoft Reports</li>
+                                <li>Provide system maintenance and support</li>
+                            </ul>
+                        </div>
+
+                        <div class="project-tech">
+                            <span class="tech-tag">C# .NET Framework 4</span>
+                            <span class="tech-tag">ADO.NET</span>
+                            <span class="tech-tag">WinForms</span>
+                            <span class="tech-tag">DevExpress</span>
+                            <span class="tech-tag">SQL Server</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 6: E-Care System -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="project-icon">
+                            <i class="fas fa-hospital"></i>
+                        </div>
+                        <div class="project-title-container">
+                            <div class="project-year">2015 – 2016</div>
+                            <h3>E-Care System (Clinic Management)</h3>
+                        </div>
+                    </div>
+
+                    <div class="project-role">Full-stack Developer</div>
+
+                    <div class="project-content">
+                        <p>Comprehensive clinic management system handling patients, nurses, doctors, and all medical operations.</p>
+
+                        <div class="project-features">
+                            <ul>
+                                <li>Manage patient bookings and appointment scheduling</li>
+                                <li>Handle all clinics within hospitals or medical centers</li>
+                                <li>Store customer and patient data with medical prescriptions</li>
+                                <li>Validate employee information and actions</li>
+                                <li>Print documents using DevExpress printing tools</li>
+                            </ul>
+                        </div>
+
+                        <div class="project-tech">
+                            <span class="tech-tag">C# .NET Framework 4</span>
+                            <span class="tech-tag">ADO.NET</span>
+                            <span class="tech-tag">ASP Forms</span>
+                            <span class="tech-tag">DevExpress</span>
+                            <span class="tech-tag">SQL Server</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Third Row - Single Project -->
+            <div class="projects-grid" style="margin-top: var(--spacing-md);">
+                <!-- Project 7: Arc-Dox System -->
+                <div class="project-card" style="grid-column: 1 / -1; max-width: 800px; margin: 0 auto;">
+                    <div class="project-header">
+                        <div class="project-icon">
+                            <i class="fas fa-archive"></i>
+                        </div>
+                        <div class="project-title-container">
+                            <div class="project-year">2015 – 2016</div>
+                            <h3>Arc-Dox System (Document Archiving)</h3>
+                        </div>
+                    </div>
+
+                    <div class="project-role">Full-stack Developer</div>
+
+                    <div class="project-content">
+                        <p>Desktop archiving system for printing, posting, and manual filing of paper documents across departments.</p>
+
+                        <div class="project-features">
+                            <ul>
+                                <li>Store scanned documents in database with metadata</li>
+                                <li>Insert and manage document details</li>
+                                <li>Provide quick document retrieval when needed</li>
+                                <li>Enable department access across Saudi Arabia and Egypt</li>
+                                <li>Print documents using DevExpress printing tools</li>
+                            </ul>
+                        </div>
+
+                        <div class="project-tech">
+                            <span class="tech-tag">C# .NET Framework 4</span>
+                            <span class="tech-tag">ADO.NET</span>
+                            <span class="tech-tag">WinForms</span>
+                            <span class="tech-tag">DevExpress</span>
+                            <span class="tech-tag">SQL Server</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
     </section>
 
-    <!-- CONTACT -->
-    <section id="contact" class="section">
-      <div class="container">
-        <h2>Contact</h2>
-        <div class="contact-grid">
-          <div>
-            <p><strong>Email</strong></p>
-            <p><a href="mailto:atia.aboueleneen@gmail.com">atia.aboueleneen@gmail.com</a></p>
-          </div>
-          <div>
-            <p><strong>LinkedIn</strong></p>
-            <p><a href="https://www.linkedin.com/in/atia-abouel-eneen-8a2aa183/" target="_blank">Atia Abouel-Eneen</a></p>
-          </div>
-          <div>
-            <p><strong>GitHub</strong></p>
-            <p>Will be added — (create account: github.com)</p>
-          </div>
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <div class="section-title">
+                <h2>Get In Touch</h2>
+            </div>
+
+            <div class="contact-section">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Email</h4>
+                            <p><a href="mailto:atia.aboueleneen@gmail.com">atia.aboueleneen@gmail.com</a></p>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Phone</h4>
+                            <p><a href="tel:+201060706388">+20 106 070 6388</a></p>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fab fa-linkedin"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>LinkedIn</h4>
+                            <p><a href="https://www.linkedin.com/in/atia-abouel-eneen-8a2aa183/" target="_blank">Atia Abouel Eneen</a></p>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fab fa-github"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>GitHub</h4>
+                            <p><a href="https://github.com/Atia-aboueleneen" target="_blank">Atia-aboueleneen</a></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-grid">
+                            <div class="form-group">
+                                <label for="name">Full Name</label>
+                                <input type="text" id="name" placeholder="Your Name" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="email">Email Address</label>
+                                <input type="email" id="email" placeholder="your.email@example.com" required>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" placeholder="Project Inquiry" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" placeholder="Tell me about your project or opportunity..." required></textarea>
+                        </div>
+
+                        <button type="submit" class="btn">
+                            <i class="fas fa-paper-plane"></i> Send Message
+                        </button>
+                    </form>
+                </div>
+            </div>
         </div>
-      </div>
     </section>
 
-  </main>
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/atia-abouel-eneen-8a2aa183/" target="_blank" class="social-link">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a href="https://github.com/Atia-aboueleneen" target="_blank" class="social-link">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="mailto:atia.aboueleneen@gmail.com" class="social-link">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                    <a href="#" class="social-link" onclick="window.print(); return false;">
+                        <i class="fas fa-print"></i>
+                    </a>
+                </div>
 
-  <!-- FOOTER -->
-  <footer class="site-footer">
-    <div class="container text-center">
-      <small>© <span id="year"></span> Atia Abouel-Eneen — All rights reserved. | Portfolio: recreated mockups only (no client screenshots)</small>
-    </div>
-  </footer>
-
-  <!-- Scripts -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-  <script src="script.js"></script>
+                <div class="copyright">
+                    © 2024 Atia Aboueleneen. All rights reserved.
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+   
 </body>
 </html>
